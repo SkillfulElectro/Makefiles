@@ -33,9 +33,9 @@ hello:
 
 Remember to use TABs for indentation. Run make in the same directory to see the output:
 
-```$ make
+$ make
 echo "Hello, World"
-Hello, World```
+Hello, World
 
 For more resources, explore the Makefile Cookbook for templates and detailed comments.
 
