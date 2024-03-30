@@ -18,7 +18,7 @@ filter can also be used in more complex ways:
 
 1.Filtering multiple patterns: You can filter multiple patterns at once. For example, `$(filter %.c %.h, $(files))` will select all .c and .h files from the files list.
 
-2.Negation with filter-out: If you want to select all elements that do not match a pattern, you can use filter-out. For example, $(filter-out %.h, $(files)) will select all files that are not header files.
+2.Negation with filter-out: If you want to select all elements that do not match a pattern, you can use filter-out. For example, `$(filter-out %.h, $(files))` will select all files that are not header files.
 
-3.Nested filter: You can nest filter functions to apply multiple filters. For example, $(filter %.o, $(filter-out test%, $(objects))) will select all object files that start with test and end with .o.
+3.Nested filter: You can nest filter functions to apply multiple filters. For example, `$(filter %.o, $(filter-out test%, $(objects)))` will select all object files that start with test and end with .o.
 
