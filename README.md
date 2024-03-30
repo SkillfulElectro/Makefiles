@@ -3,6 +3,11 @@
 
 Makefiles are essential in the Linux ecosystem for managing program compilation and linking. Let's explore what they are, why they exist, and how to create a basic Makefile.
 
+for running this tutorial in your shell :
+```
+$ make
+```
+
 ## What Are Makefiles?
 
 Makefiles guide the `make` utility during compilation and linking. They determine which parts of a program need recompilation, making development more efficient.
