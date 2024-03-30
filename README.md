@@ -29,13 +29,16 @@ Create a `Makefile` with the following content:
 
 ```makefile
 hello:
-    echo "Hello, World"```
+    echo "Hello, World"
+```
 
 Remember to use TABs for indentation. Run make in the same directory to see the output:
 
+```makefile
 $ make
 echo "Hello, World"
 Hello, World
+```
 
 For more resources, explore the Makefile Cookbook for templates and detailed comments.
 
