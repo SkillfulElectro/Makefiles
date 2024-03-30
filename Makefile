@@ -5,6 +5,7 @@ all:
 		echo example $$number :;\
 		echo Makefile :;\
 		cd $(dier)$$number && cat Makefile && echo $~ && echo $~ && echo $~ && echo the result of running : && make && echo $~ && echo $~ && echo $~ && echo files in dir $: && ls -l && echo $~ && echo $~ && echo $~ && cd ..;\
+		read -p "Enter smth to go to next example : " value;\
 	done
 	
 
