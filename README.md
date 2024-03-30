@@ -7,6 +7,7 @@ for running this tutorial in your shell :
 ```
 $ make
 ```
+the automatated version opens each example for you and then runs it to you see the result .
 
 ## What Are Makefiles?
 
