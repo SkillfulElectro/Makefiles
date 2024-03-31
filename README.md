@@ -5,6 +5,7 @@ Makefiles are essential in the Linux ecosystem for managing program compilation 
 
 for running this tutorial in your shell :
 ```
+$ git clone https://github.com/SkillfulElectro/Makefiles.git
 $ make
 ```
 the automatated version opens each example for you and then runs it to you see the result .
